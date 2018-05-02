@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Devin Wong" date="2018-05-02T01:34:50.803Z" timestamp="2018-05-02T01:34:50.803Z">
+    <change idref="t52" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Devin Wong" date="2018-05-02T01:35:09.145Z" timestamp="2018-05-02T01:35:09.145Z">
+    <change idref="t46" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+</changelog>

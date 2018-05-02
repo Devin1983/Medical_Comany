@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="cL-wwqPkyIm">
+  <start-date>2018-04-12T00:00:00.000Z</start-date>
+  <granularity>hours</granularity>
+  <named-styles-proxy>
+    <named-style-proxy name="" id="nwFjppYO43a"/>
+  </named-styles-proxy>
+  <prototype-task>
+    <task id="t-2">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <child-resource idref="r9"/>
+    <child-resource idref="r10"/>
+    <child-resource idref="r11"/>
+    <child-resource idref="r12"/>
+    <child-resource idref="r13"/>
+    <child-resource idref="r14"/>
+    <child-resource idref="r15"/>
+  </resource>
+  <resource id="r1">
+    <name>郭飞翔</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>王德文</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>王修超</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>陈汐豪</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>文征</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>尹烈</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>韩正波</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>滕松涛</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="79200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r9">
+    <name>王嘉良</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r10">
+    <name>张翔宇</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r11">
+    <name>柯美忠</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r12">
+    <name>全晓虎</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r13">
+    <name>刘艳萍</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r14">
+    <name>李文涛</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r15">
+    <name>医疗事业部全员</name>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r7"/>
+    <child-resource idref="r8"/>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t3"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t30"/>
+    <child-task idref="t36"/>
+  </task>
+  <task id="t1">
+    <title>研讨会议程筹备拟稿</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2018-04-16T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-04-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t3">
+    <title>健康医疗专家研讨会</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.424" g="0.424" b="0.424"/>
+      </value>
+    </style>
+  </task>
+  <task id="t4">
+    <title>平安医疗参会议程敲定</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t5">
+    <title>毕马威参会议程敲定</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t6">
+    <title>研讨会会议议程定稿</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t7">
+    <title>品医汇、健康之路、一脉阳光会议议程敲定</title>
+    <effort>288000</effort>
+    <effort-done>288000</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t8">
+    <title>医院专家代表、基金公司代表议程敲定</title>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>股东领导及公司领导时间确定</title>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>平安医疗合作方案定稿</title>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>健康医疗专家研讨会</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-04-25T10:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color r="0.6909" g="-0.075999" b="-0.0437892" archive="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"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t1"/>
+    <prerequisite-task idref="t4"/>
+    <prerequisite-task idref="t5"/>
+    <prerequisite-task idref="t6"/>
+    <prerequisite-task idref="t7"/>
+    <prerequisite-task idref="t8"/>
+    <prerequisite-task idref="t9"/>
+    <prerequisite-task idref="t10"/>
+    <prerequisite-task idref="t13"/>
+    <assignment idref="r11"/>
+    <assignment idref="r9"/>
+    <assignment idref="r10"/>
+    <assignment idref="r12"/>
+    <assignment idref="r1"/>
+    <assignment idref="r13"/>
+    <assignment idref="r14"/>
+    <start-no-earlier-than>2018-04-25T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>集团领导与卫计委领导会晤</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-04-25T05:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color r="0.6909" g="-0.075999" b="-0.0437892" archive="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"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r9"/>
+    <assignment idref="r10"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-25T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>数据基础平台现状分析报告</title>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>平安医疗需求访谈</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.640035" g="0.41225" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>高层领导会晤</title>
+    <type>group</type>
+    <child-task idref="t13"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.300602" g="0.415171" b="0.616418"/>
+      </value>
+    </style>
+  </task>
+  <task id="t17">
+    <title>健康武汉项目推进</title>
+    <type>group</type>
+    <child-task idref="t14"/>
+    <child-task idref="t26"/>
+    <child-task idref="t27"/>
+    <child-task idref="t19"/>
+    <child-task idref="t28"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t29"/>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t60"/>
+    <child-task idref="t61"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <child-task idref="t64"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.131982" g="0.411401" b="0.587184"/>
+      </value>
+    </style>
+  </task>
+  <task id="t19">
+    <title>重点业务系统现状分析报告</title>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <start-constraint-date>2018-04-16T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-04-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>现状分析报告完成</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t14"/>
+    <prerequisite-task idref="t19"/>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>商保、家医需求分析完成</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-20T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>商保、家医改造方案完成</title>
+    <effort>172800</effort>
+    <effort-done>172800</effort-done>
+    <start-constraint-date>2018-04-20T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-04-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>输出现状分析及改造方案1.0版本</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-04-25T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color r="0.6909" g="-0.075999" b="-0.0437892" archive="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"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t20"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t22"/>
+    <prerequisite-task idref="t22"/>
+    <prerequisite-task idref="t22"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-25T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t26">
+    <title>复旦微电子数据备份配置完成</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t27">
+    <title>默联-复旦微银行卡认证开发协调</title>
+    <effort>460800</effort>
+    <effort-done>105984</effort-done>
+    <start-constraint-date>2018-04-13T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-04-13T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t28">
+    <title>APP实名认证测试</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2018-04-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-04-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t29">
+    <title>健康武汉系统备份</title>
+    <effort>1123200</effort>
+    <effort-done>172800</effort-done>
+    <start-constraint-date>2018-04-23T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-04-23T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>B端合作伙伴技术对接</title>
+    <type>group</type>
+    <child-task idref="t15"/>
+    <child-task idref="t31"/>
+    <child-task idref="t52"/>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <child-task idref="t68"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.822653" g="0.646123" b="0.999"/>
+      </value>
+    </style>
+  </task>
+  <task id="t31">
+    <title>城市医伴“汉阳模式”系统需求访谈</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-13T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.640035" g="0.41225" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-04-13T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>平安医疗商保及家医签约需求资料梳理</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.640035" g="0.41225" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t33">
+    <title>万达-健康武汉总体业务流需求分析</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.640035" g="0.41225" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t36">
+    <title>商业计划书及市场推进</title>
+    <type>group</type>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <child-task idref="t39"/>
+    <child-task idref="t41"/>
+    <child-task idref="t42"/>
+    <child-task idref="t47"/>
+    <child-task idref="t43"/>
+    <child-task idref="t44"/>
+    <child-task idref="t48"/>
+    <child-task idref="t49"/>
+    <child-task idref="t51"/>
+    <child-task idref="t65"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.0887328" g="0.441769" b="0.999"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t39">
+    <title>市场分析数据采集并整理成稿</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t41">
+    <title>配合咨询公司分析商业计划书内容</title>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2018-04-16T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t42">
+    <title>主导咨询搭建计划书架构</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t43">
+    <title>内部撰写商业计划书</title>
+    <effort>720000</effort>
+    <effort-done>720000</effort-done>
+    <start-constraint-date>2018-04-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2018-04-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t44">
+    <title>专家研讨会意见完善商业计划</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-26T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r15"/>
+    <start-no-earlier-than>2018-04-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t45">
+    <title>启动四大咨询公司服务商讨</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-12T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-04-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>咨询公司确认工作细节</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2018-04-13T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-13T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t47">
+    <title>咨询公司商业计划初审</title>
+    <effort>57600</effort>
+    <effort-done>57600</effort-done>
+    <start-constraint-date>2018-04-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-04-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>根据股东意见或重启咨询服务</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-26T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.999" g="0.98811" b="0.816603"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-04-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>确认咨询公司并草拟合同</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2018-04-27T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color r="0.6909" g="-0.075999" b="-0.0437892" archive="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"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t39"/>
+    <prerequisite-task idref="t41"/>
+    <prerequisite-task idref="t42"/>
+    <prerequisite-task idref="t43"/>
+    <prerequisite-task idref="t44"/>
+    <prerequisite-task idref="t45"/>
+    <prerequisite-task idref="t46"/>
+    <prerequisite-task idref="t47"/>
+    <prerequisite-task idref="t48"/>
+    <assignment idref="r4"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2018-04-27T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>咨询合同签署</title>
+    <type>milestone</type>
+    <start-constraint-date>2018-05-04T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color r="0.6909" g="-0.075999" b="-0.0437892" archive="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"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-05-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t52">
+    <title>中电数据合作协议初稿完成</title>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2018-04-18T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-completion-color">
+        <color space="srgb" r="0.38137" g="0.0709789" b="0.6993"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2018-04-18T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>中心医院现场测试挂号就医号流程</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-02T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-05-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t59">
+    <title>儿童医院现场测试挂号就医流程</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-02T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-05-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>梳理并输出测试点文档</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-02T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-05-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>梳理挂号业务流程的bug协调厂商修复</title>
+    <effort>172800</effort>
+    <start-constraint-date>2018-05-03T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2018-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t62">
+    <title>万达、创业进行调研流程技术梳理</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-03T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2018-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>编写并输出挂号流程测试案例</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-04T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2018-05-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>部分功能的回归测试</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-04T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <assignment idref="r6"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2018-05-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>实施路径及推广策略角度优化初稿</title>
+    <effort>86400</effort>
+    <start-constraint-date>2018-05-02T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2018-05-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t66">
+    <title>与深圳品医汇对接云药房、云诊所需求</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-02T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2018-05-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t67">
+    <title>优化与合作伙伴对接ppt</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-03T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2018-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t68">
+    <title>拟定品医汇初稿</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-05-04T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2018-05-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="true">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
